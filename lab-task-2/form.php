@@ -85,7 +85,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             </tr>
             <tr>
                 <td>Confirm Password:</td>
-                <td><input type="password" name="confirmPassword" /></td>
+                <td><input type="password" name="confirmPassword" /><?php echo $validPassword; ?></td>
             </tr>
         </table>
         Gender:
