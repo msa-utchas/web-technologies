@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+.main-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    /* background-color:red; */
+    width: 55vw;
+    
+    margin-left: 175px;
+    border: 2px solid rgb(216, 213, 213);
+    border-radius: 10px;
+    /* transform: translate(-50%); */
+    margin-top: 40px;
+
+    margin-bottom: 40px;
+    grid-gap: 13px;
+    padding: 20px;
+    justify-items: center;
+    
+    /* border: 1px solid black; */
+
+}
+.header-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 3fr;
+    background-color:rgb(221, 233, 247);
+    width: 100%;
+    /* margin-left: 0px; */
+    border: 2px solid rgb(216, 213, 213);
+    border-radius: 10px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    grid-gap: 3px;
+    padding: 10px;
+    justify-items: left;
+}
+
+.pic img {
+    height: 40px;
+    width: 40px;
+    border-radius: 70%;
+    padding:0px;
+}
+
+.edit{
+    /* display: inline-block; */
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    /* font-weight: bold; */
+    /* color: rgb(126, 123, 120); */
+}
+
+.edit h1{
+    color: rgb(13, 1, 184);
+}
+
+.edit h3{
+    color: rgb(13, 1, 184);
+}
+
+.edit h4{
+    color: rgb(17, 19, 16);
+}
+
+.box input {
+    font-size: 16px;
+    width: 100%;
+    height: 30px;
+    border: 1px solid black;
+    padding-left: 20px;
+    border-radius: 5px;
+}
+
+.small {
+    width: 95%;
+    padding-left: 25px;
+    padding-bottom: 5px;
+}
+
+.title h4{
+    color: rgb(17, 19, 16);
+    font-weight: 500;
+}
+
+.title textarea{
+    font-size: 16px;
+    width: 100%;
+    height: 30px;
+    border: 1px solid black;
+    padding-left: 20px;
+    border-radius: 5px;
+}
+
+.body h4{
+    color: rgb(17, 19, 16);
+    font-weight: 400;
+}
+.body textarea{
+    font-size: 16px;
+    width: 100%;
+    height: 250px;
+    border: 1px solid black;
+    padding-left: 20px;
+    border-radius: 5px;
+}
+.image{
+    font-size: 16px;
+    width: 100%;
+    height: 150px;
+    border: 1px solid black;
+    padding-left: 2px;
+    border-radius: 5px;
+}
+.accept input {
+    margin-top: 8px;
+    font-family: 'Segoe UI', sans-serif;
+    color: white;
+    width: 100%;
+    height: 30px;
+    font-size: 16px;
+    background-color: rgb(62, 177, 62);
+    border-radius: 5px;
+    border: 0px;
+}
+
+.update input {
+    margin-top: 8px;
+    font-family: 'Segoe UI', sans-serif;
+    color: white;
+    width: 100%;
+    height: 30px;
+    font-size: 16px;
+    background-color: rgb(103, 74, 228);
+    border-radius: 5px;
+    border: 0px;
+}
+
+.reject input {
+    margin-top: 8px;
+    font-family: 'Segoe UI', sans-serif;
+    color: white;
+    width: 100%;
+    height: 30px;
+    font-size: 16px;
+    background-color: rgb(116, 32, 32);
+    border-radius: 5px;
+    border: 0px;
+}
+
+
+

@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    /* background-color:red; */
+    width: 50%;
+    margin-left: 275px;
+    border: 2px solid rgb(216, 213, 213);
+    border-radius: 1px;
+    /* transform: translate(-50%); */
+
+    margin-top: 40px;
+    grid-gap: 13px;
+    padding: 20px;
+    /* border: 1px solid black; */
+
+}
+
+.profile{
+    text-align: center;
+    /* margin-left: 45%; */
+    margin-top: 0px;
+    width: 100%;
+    height: inherit;
+    color:beige;
+    background-color: rgb(21, 126, 212)
+
+    
+}
+
+.logo h2 {
+    width: 100%;
+    font-family: "Oswald", sans-serif;
+    font-size: 35px;
+    color: red;
+    display: inline-block;
+    text-align: end;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.logo h2 span {
+    color: #412ad3;
+}
+
+.editor{
+    /* display: inline-block; */
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    font-weight: bold;
+    /* color: rgb(126, 123, 120); */
+}
+
+.editor h1{
+    color: rgb(158, 157, 157);
+}
+
+.sign-bt {
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 10px;
+    display: inline-block;
+    display: grid;
+    justify-content: right;
+    border-radius: 5px;
+}
+
+.box input {
+    font-size: 16px;
+    width: 100%;
+    height: 30px;
+    border: 1px solid black;
+    padding-left: 20px;
+    border-radius: 5px;
+}
+
+.small {
+    width: 95%;
+    padding-left: 25px;
+    padding-bottom: 5px;
+}
+
+.gender {
+    padding-left: 20px;
+    padding-bottom: 5px;
+}
+
+.gender p {
+    padding-top: 4px;
+    /* padding-left: 10px; */
+    font-family: 'Segoe UI', sans-serif;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.gender-inp {
+
+    margin-left: 8px;
+    height: 12px;
+    width: 12px;
+}
+
+.gender div {
+    font-weight: 500;
+}
+
+.dob input {
+    width: 100%;
+    height: 20px; 
+    border: 1px white solid; 
+    /* border-radius: 5px; */
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 16px;
+    padding-left: 250px;
+    padding-bottom: 7px;
+    /* color: rgb(24, 24, 27); */
+    font-weight: 500;
+}
+
+.btnback a{
+    margin-top: 4px;
+    font-family: 'Segoe UI', sans-serif;
+    color: white;
+    width: 100%;
+    height: 30px;
+    font-size: 16px;
+    background-color: rgb(101, 152, 167);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border: 7px;
+    padding: 2px;
+    text-align: center;
+    border-radius: 5px;
+}
+.btnback a:hover{
+    background-color: rgb(56, 133, 155);
+}
+.ppicture input{
+    margin-top: 8px;
+    font-family: 'Segoe UI', sans-serif;
+    color: white;
+    width: 100%;
+    height: 25px;
+    font-size: 16px;
+    background-color: rgb(80, 170, 221);
+    border-radius: 5px;
+    border: 0px;
+}
+
+.btnupdate input {
+    margin-top: 1px;
+    font-family: 'Segoe UI', sans-serif;
+    color: white;
+    width: 100%;
+    height: 50px;
+    font-size: 16px;
+    background-color: rgb(115, 184, 115);
+    border-radius: 5px;
+    border: 0px;
+}
+
+
+
+.btnupdate input:hover {
+    background-color: darkgreen;
+}
+
+.btndelete input {
+    margin-top: 4px;
+    font-family: 'Segoe UI', sans-serif;
+    color: white;
+    width: 100%;
+    height: 30px;
+    font-size: 16px;
+    background-color: rgb(196, 54, 54);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border: 7px;
+    padding: 2px;
+    text-align: center;
+    border-radius: 5px;
+}
+.btndelete input:hover
+{
+    background-color: #570202;
+}
+
+.em
+{
+    font-family: 'Segoe UI', sans-serif;
+    color:red;
+    font-weight: 700;
+    font-size: 16px;
+    padding-left: 20px;
+}
+
